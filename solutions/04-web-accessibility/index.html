@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Accessibility- The Wandering Photographer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="header-top">
+            <h1>The Wandering Photographer</h1>
+            <a class="cart" href="#" aria-label="View shopping basket">
+                <img src="./images/shopping.svg" alt="Shopping basket">
+
+            </a>
+
+        </div>
+
+        <!-- nav section with links -->
+        <div class="nav-section">
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">About me</a></li>
+                </ul>
+            </nav>
+
+            <div>
+                <img src="./images/TheDivider.png" alt="Divider">
+
+            </div>
+        </div>
+
+
+    </header>
+
+    <main>
+
+        <!-- product section of the gallery -->
+        <section class="gallery">
+
+            <article class="photo-card">
+                <img src="./images/BridgePhoto.jpg" alt="Cliff overlooking a calm blue sea in Greenland at sunset">
+
+                <div class="card-content">
+                    <h3>Greenland Coast</h3>
+                    <p class="price">£25</p>
+
+                    <p>This was from a fabulous trip to the coast of Greenland with my family. The water was lovely but
+                        very
+                        cold!</p>
+
+                    <button type="button">
+                        + Add To Basket
+                    </button>
+                </div>
+
+            </article>
+
+
+            <article class="photo-card">
+                <img src="./images/OceanPhoto.jpg"
+                    alt="View looking up at the Golden Gate Bridge with bright orange steel structure">
+
+                <div class="card-content">
+                    <h3>Golden Gate Bridge</h3>
+                    <p class="price">£25</p>
+
+                    <p>A picture of the Golden Gate Bridge. New York! New York!</p>
+
+                    <button type="button">
+                        + Add To Basket
+                    </button>
+                </div>
+
+            </article>
+
+
+            <article class="photo-card">
+                <img src="./images/ValleyPhoto.jpg"
+                    alt="Wide mountain valley with a river running through it in Greenland">
+
+                <div class="card-content">
+                    <h3>Greenland Valley</h3>
+                    <p class="price">£25</p>
+
+                    <p>Another great photo from Greenland. It's a river valley where a glacier used to be.</p>
+
+                    <button type="button" aria-label="Add Greenland Valley print to basket">
+                        + Add To Basket
+                    </button>
+                </div>
+
+            </article>
+
+
+            <article class="photo-card">
+                <img src="./images/WaterfallPhoto.jpg"
+                    alt="Tall waterfall flowing into a pool surrounded by green mossy rocks">
+
+                <div class="card-content">
+                    <h3>Waterfall</h3>
+                    <p class="price">£25</p>
+
+                    <p>The waterfall made such a lovely sound. I could have fallen asleep!</p>
+
+                    <button type="button" aria-label="Add Waterfall print to basket">
+                        + Add To Basket
+                    </button>
+                </div>
+
+            </article>
+
+        </section>
+
+    </main>
+
+    <!-- footer section -->
+    <footer>
+        <p>Copyright © The Wandering Photographer 2018.</p>
+        <nav aria-label="Footer navigation">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">About me</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+</body>
+
+</html>
