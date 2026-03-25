@@ -1,0 +1,69 @@
+/* Whole body contains page background color which is grey */
+body {
+    margin: 0;
+    background-color: #d9d9d9;
+    font-family: Arial, sans-serif;
+    color: #111;
+    padding: 20px;
+}
+
+/* main container css with auto margin and max width to center the content and give it a white background with padding and rounded corners */
+main {
+    max-width: 760px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+/* Main title : our story */
+h1 {
+    text-align: center;
+    font-size: 110px;
+    color: #4a9c0b;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+/* title of the sections */
+h2 {
+    text-align: center;
+    font-size: 60px;
+    color: #4a9c0b;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+/* style of the paragraph */
+p {
+    font-size: 18px;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+/* did you know box style */
+div {
+    background-color: #4a9c0b;
+    color: white;
+    padding: 25px;
+    border-radius: 25px;
+    margin-top: 30px;
+}
+
+/* did you know box title style */
+div h3 {
+    font-size: 30px;
+    margin-bottom: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+}
+
+/* did you know box paragraph style */
+div p {
+    font-size: 16px;
+    line-height: 1.4;
+}
